@@ -1,25 +1,20 @@
 package com.wyjie.mall.order.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.wyjie.mall.order.entity.OrderEntity;
-import com.wyjie.mall.order.service.OrderService;
 import com.wyjie.common.utils.PageUtils;
 import com.wyjie.common.utils.R;
+import com.wyjie.mall.order.entity.OrderEntity;
+import com.wyjie.mall.order.service.OrderService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.Map;
 
 
 
 /**
- * 订单
- *
+ * 
+ * 
  * @author wyjie
  * @email wyjie96@gmail.com
  * @date 2020-06-12 20:55:29
